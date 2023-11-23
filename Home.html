@@ -1,0 +1,2092 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Liam Williams</title>
+  <meta name="title" content="Crafti - We Make Top Quality Handmade Products">
+  <meta name="description" content="This is a Handmade Products html template made by codewithsadee">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" /><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'><link rel="stylesheet" href="./style.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rosario:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #111;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #29d9d5;
+  border-radius: 5rem;
+}
+
+body {
+  background:  linear-gradient(to bottom, #008bcc 0%, #1254b0 100%);;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heading span {
+  color: #29d9d5;
+  font-size: 2rem;
+}
+
+.heading h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  color: #29d9d5;
+  border: 0.2rem solid #29d9d5;
+  border-radius: 5rem;
+  cursor: pointer;
+  background: none;
+}
+
+.btn:hover {
+  background: #29d9d5;
+  color: #111;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 9%;
+}
+
+.header .navbar a {
+  font-size: 1.7rem;
+  color: #aaa;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.header .navbar a:hover {
+  color: #29d9d5;
+}
+
+.header .btn {
+  margin-top: 0;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.logo i {
+  color: #29d9d5;
+  padding-right: .5rem;
+}
+
+#menu-btn {
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.home {
+  margin: 0 auto;
+  margin-top: 9rem;
+  width: 90%;
+  border-radius: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(trollscard.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(trollscard.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 80vh;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.home .content {
+  text-align: center;
+}
+
+.home .content span {
+  font-weight: bolder;
+  color: transparent;
+  -webkit-text-stroke: 0.1rem #fff;
+  font-size: 4vw;
+  display: block;
+}
+
+.home .content h3 {
+  font-size: 6vw;
+  color: #5f6666;
+}
+
+.home .content p {
+  max-width: 60rem;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.book-form {
+  width: 80%;
+  margin: 1rem auto;
+  margin-top: -5rem;
+  background: #222;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
+          box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
+  padding: 3rem 2rem;
+}
+
+.book-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.book-form form .inputBox {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25rem;
+          flex: 1 1 25rem;
+}
+
+.book-form form .inputBox span {
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.book-form form .inputBox input {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border-radius: 5rem;
+  border: 0.2rem solid #29d9d5;
+  font-size: 1.6rem;
+  color: #aaa;
+  text-transform: none;
+  background: none;
+  margin-top: 1rem;
+}
+
+.book-form form .btn {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 15rem;
+          flex: 1 1 15rem;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.about .video-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.about .video-container video {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.about .video-container .controls {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.about .video-container .controls span {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  margin: .7rem;
+}
+
+.about .video-container .controls span:hover {
+  background: #29d9d5;
+}
+
+.about .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  margin-bottom: 5rem;
+}
+
+.about .content span {
+  color: #29d9d5;
+  font-size: 2rem;
+}
+
+.about .content h3 {
+  color: #fff;
+  font-size: 4rem;
+  margin-top: .5rem;
+}
+
+.about .content p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.destination .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+}
+
+.destination .box-container .box {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #222;
+}
+
+.destination .box-container .box:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.destination .box-container .box .image {
+  height: 20rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.destination .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.destination .box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.destination .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #5f6666;
+}
+
+.destination .box-container .box .content p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.destination .box-container .box .content a {
+  font-size: 1.7rem;
+  color: #29d9d5;
+}
+
+.destination .box-container .box .content a:hover i {
+  padding-left: 1rem;
+}
+
+.destination .box-container .box .content a i {
+  padding-right: .5rem;
+}
+
+.services .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem;
+}
+
+.services .box-container .box {
+  background: #222;
+  border-radius: 1rem;
+  padding: 3rem;
+  text-align: center;
+  border: 0.2rem solid #111;
+}
+
+.services .box-container .box:hover {
+  border: 0.2rem solid #29d9d5;
+}
+
+.services .box-container .box i {
+  font-size: 4rem;
+  color: #29d9d5;
+  margin-bottom: 2rem;
+}
+
+.services .box-container .box h3 {
+  font-size: 2rem;
+  color: #5f6666;
+}
+
+.services .box-container .box p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.gallery .box-container {
+  -webkit-columns: 3 25rem;
+          columns: 3 25rem;
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+}
+
+.gallery .box-container .box {
+  margin-bottom: 1rem;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+}
+
+.gallery .box-container .box img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.gallery .box-container .box span {
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.gallery .box-container .box h3 {
+  margin-top: .5rem;
+  font-size: 2rem;
+  color: #5f6666;
+}
+
+.blogs .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem;
+}
+
+.blogs .box-container .box {
+  border-radius: 1rem;
+  background: #222;
+  overflow: hidden;
+}
+
+.blogs .box-container .box:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.blogs .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.blogs .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blogs .box-container .box .content {
+  padding: 2rem;
+}
+
+.blogs .box-container .box .content .link {
+  font-size: 2rem;
+  color: #5f6666;
+}
+
+.blogs .box-container .box .content .link:hover {
+  color: #29d9d5;
+}
+
+.blogs .box-container .box .content p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.blogs .box-container .box .content .icon {
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blogs .box-container .box .content .icon a {
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.blogs .box-container .box .content .icon a:hover {
+  color: #29d9d5;
+}
+
+.blogs .box-container .box .content .icon a i {
+  padding-right: .5rem;
+  color: #29d9d5;
+}
+
+.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(assets/images/VA_waterfront_restaurant_with_table_mountain_and_cape_wheel.jpeg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(assets/images/VA_waterfront_restaurant_with_table_mountain_and_cape_wheel.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 2rem;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.banner .content span {
+  font-size: 2rem;
+  color: #29d9d5;
+}
+
+.banner .content h3 {
+  font-size: 4rem;
+  color: #5f6666;
+  margin-top: 1rem;
+}
+
+.banner .content p {
+  max-width: 60rem;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.footer .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.footer .box-container .box {
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .logo {
+  padding-bottom: 1rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: #5f6666;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box p {
+  font-size: 1.4rem;
+  color: #aaa;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.footer .box-container .box p i {
+  padding-right: .5rem;
+  color: #29d9d5;
+}
+
+.footer .box-container .box .share {
+  padding-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  border: 0.2rem solid #29d9d5;
+  color: #29d9d5;
+  margin-right: .5rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background: #29d9d5;
+  color: #111;
+}
+
+.footer .box-container .box .links {
+  font-size: 1.4rem;
+  color: #aaa;
+  padding: 1rem 0;
+  display: block;
+}
+
+.footer .box-container .box .links:hover {
+  color: #29d9d5;
+}
+
+.footer .box-container .box .links:hover i {
+  padding-right: 2rem;
+}
+
+.footer .box-container .box .links i {
+  padding-right: .5rem;
+  color: #29d9d5;
+}
+
+.footer .box-container .box form .email {
+  width: 100%;
+  border-radius: 5rem;
+  border: 0.2rem solid #29d9d5;
+  background: none;
+  font-size: 1.5rem;
+  text-transform: none;
+  color: #aaa;
+  margin-bottom: 1rem;
+  padding: 1.2rem 1.4rem;
+}
+
+.credit {
+  background: #222;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  color: #aaa;
+}
+
+.credit span {
+  color: #29d9d5;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #222;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .navbar a {
+    margin: 2rem;
+    font-size: 2rem;
+    display: block;
+  }
+  .home {
+    margin-top: 10rem;
+  }
+  .home .content span {
+    font-size: 8vw;
+  }
+  .home .content h3 {
+    font-size: 9vw;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
+  }
+  .banner .content h3 {
+    font-size: 2.7rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  top: -10px;
+  width: 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.btnfind {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+  
+}
+
+</style>
+
+ 
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+-
+</style>
+ <!-- 
+    - #HEADER
+  -->
+
+  <header> <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="./assets/images/logo.png">
+            </div>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Menu">Pricing</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="ContactUS.html">Contact Us</a></li>
+                <li><a href="#Order">Order</a></li>
+            </ul>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+				<input type="text" placeholder="Search.." name="search">
+                
+            </div>
+        </nav>
+		<div class="slideshow-container"><a href="gallery.html"><button class="btnfind">Find Out More</button></a>
+
+<div class="mySlides fade">
+
+  <div class="numbertext">1 / 3</div>
+  <img src="assets/images/chineseshops.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="assets/images/chineseshops.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="assets/images/chineseshops.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+		</header>
+		</section>
+
+</head>
+
+<body>
+
+</head>
+<body>
+
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+      <!-- 
+        - #HERO
+      -->
+<section class="book-form" id="book-form">
+
+    <form action="">
+        <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+            <span>where to?</span>
+            <input type="text" placeholder="place name" value="">
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
+            <span>when?</span>
+            <input type="date" value="">
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+            <span>how many?</span>
+            <input type="number" placeholder="number of travelers" value="">
+        </div>
+        <input data-aos="zoom-in" data-aos-delay="600" type="submit" value="find now" class="btn">
+    </form>
+
+</section>
+
+<!-- booking form section ends -->
+<section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              We Make Top Quality
+              <span class="span">Handmade Products</span>
+            </h1>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+              pulvinar dapibus leo.
+            </p>
+
+            <a href="#" class="btn">
+              <span class="span">View Collection</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <div class="wrapper">
+            <div class="hero-banner-1 img-holder" style="--width: 400; --height: 550;">
+              <img src="./assets/images/chineseshops.jpg" width="400" height="550"
+                alt="view of assortment of decor for interior shop" class="img-cover">
+            </div>
+
+            <div class="hero-banner-2 img-holder" style="--width: 500; --height: 850;">
+              <img src="./assets/images/boats.png" width="500" height="850" alt="ceramic craft ware"
+                class="img-cover">
+            </div>
+
+            <img src="./assets/images/burjkhalifa.png" width="570" height="676" alt="laves" class="shape">
+          </div>
+
+        </div>
+      </section>
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+        <video src="assets/images/jetski.mp4" muted autoplay loop class="video"></video>
+        <div class="controls">
+            <span class="control-btn" data-src="assets/images/pool.mp4"></span>
+            <span class="control-btn" data-src="assets/images/jetski.mp4"></span>
+            <span class="control-btn" data-src="assets/images/beach.mp4"></span>
+        </div>
+    </div>
+
+    <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <span>why choose us?</span>
+        <h3>Nature's Majesty Awaits You</h3>
+        <p><ul style="list-style-type:circle;"><li>We are locally owned and operated since 1976</li>
+               <li>-No hidden fees. No pressure. Plus our Low Price Guarantee.</li>
+               <li>-Arizona’s premier full-service travel agency</li>
+               <li>-Over 75 professional Travel Advisors ready to assist you</li>
+               <li>-Customized vacation planning from start to finish: cruise, land, family, group, adventure and beyond</li>
+               <li>-First-hand travel advice, insider access and authentic destination experience</li>
+               <li>-Exclusive partnerships with the world’s top travel brands</li>
+               <li>-Member of Signature Travel Network, a leading consortium of travel professionals</li>
+               <li>-Official travel partner of Arizona Athletics</li></ul></p>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- destination section starts  -->
+
+<section class="destination" id="destination">
+
+    <div class="heading">
+        <span>our destination</span>
+        <h1>make yours destination</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="image">
+                <img src="./assets/images/NewYork.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>New York City</h3>
+                <p>  It’s the heart of “the Big Apple.”</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="image">
+                <img src="./assets/images/Dubai.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Burj Al Arab Jumeirah</h3>
+                <p>A global icon of Arabian luxury</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="image">
+                <img src="./assets/images/Ithaa-Undersea-Restaurant-Landscape-1063x614.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Ithaa </h3>
+                <p>The world's first all-glass undersea restaurant </p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <div class="image">
+                <img src="./assets/images/pexels-te-lensfix-1371360.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Rocha do Navio</h3>
+                <p>Dramatic vertical cliffs, waterfalls, and unique geological features.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="750">
+            <div class="image">
+                <img src="./assets/images/china20191116-4-1o9km9i.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Shenyang</h3>
+                <p> Also known as the Northern Imperial Tomb.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="900">
+            <div class="image">
+                <img src="./assets/images/pexels-quang-nguyen-vinh-2161449.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>The Nile</h3>
+                <p> the longest river in Africa</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="1150">
+            <div class="image">
+                <img src="./assets/images/Beijing.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>
+Beijing, China</h3>
+                <p>Historic palaces and modern art enclaves.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="1300">
+            <div class="image">
+                <img src="./assets/images/download.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Paris</h3>
+                <p>Eiffel Tower.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- destination section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <div class="heading">
+        <span>our services</span>
+        <h1>countless expericences</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <i class="fas fa-globe"></i>
+            <h3>worldwide</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <i class="fas fa-utensils"></i>
+            <h3>food & drinks</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+            <i class="fas fa-wallet"></i>
+            <h3>affordable price</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <div class="heading">
+        <span>our gallery</span>
+        <h1>we record memories</h1>
+    </div>
+    
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="./assets/images/colorfulbuildings.jpg" alt="">
+            <span>travel spot</span>
+            <h3>iceland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="./assets/images/db83a9b5c2b97f2916a7514bf3ad75b2.jpg" alt="">
+            <span>travel spot</span>
+            <h3>greenland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="./assets/images/best-attractions-in-Paris-France.jpg" alt="">
+            <span>travel spot</span>
+            <h3>alaska</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="./assets/images/HOLIDAYHOUSE.jpg" alt="">
+            <span>travel spot</span>
+            <h3>thailand</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="./assets/images/Italy.jpg" alt="">
+            <span>travel spot</span>
+            <h3>brazil</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="./assets/images/-ozen-life-maadhoo-maldives.jpg" alt="">
+            <span>travel spot</span>
+            <h3>maldive</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="./assets/images/portblue-club-pollentiaSpain.jpg" alt="">
+            <span>travel spot</span>
+            <h3>iceland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="./assets/images/USA,vermont,twin-farms.jpg" alt="">
+            <span>travel spot</span>
+            <h3>alaska</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="./assets/images/waterfall1.jpg" alt="">
+            <span>travel spot</span>
+            <h3>maldive</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <span>blogs & posts</span>
+        <h1>we untold stories</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="image">
+                <img src="trollscard.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">Life is a journey, not a destination</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, natus!</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                    <a href="#"><i class="fas fa-user"></i> by admin</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="image">
+                <img src="trollscard.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">Life is a journey, not a destination</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, natus!</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                    <a href="#"><i class="fas fa-user"></i> by admin</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="image">
+                <img src="trollscard.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">Life is a journey, not a destination</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, natus!</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                    <a href="#"><i class="fas fa-user"></i> by admin</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- banner section starts  -->
+
+<div class="banner">
+
+    <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <span>start your adventures</span>
+        <h3>Let's Explore This World</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatum praesentium amet quibusdam quam officia suscipit odio.</p>
+        <a href="#book-form" class="btn">book now</a>
+    </div>
+
+</div>
+
+<!-- banner section ends -->
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
+      
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+            <figure class="about-banner about-banner-1 img-holder" style="--width: 600; --height: 480;">
+              <img src="./assets/images/st-james-court-a-taj London.jpg" width="600" height="480" loading="lazy" alt="craftman in workshop"
+                class="img-cover">
+            </figure>
+
+            <h2 class="h2 section-title">Make Handicrafts Since 1992</h2>
+          </div>
+
+          <figure class="about-banner about-banner-2 img-holder" style="--width: 500; --height: 700;">
+            <img src="./assets/images/The Brando, Tahiti.jpg" width="500" height="700" loading="lazy"
+              alt="interior view of a leather shop selling belts brac" class="img-cover">
+          </figure>
+
+          <div class="about-content">
+
+            <h3 class="h2 section-title">Innovative Design is Our Passion</h3>
+
+            <p class="section-text">
+              Curabitur interdum malesuada lectus ut pharetra. Sed tellus ante, aliquet a sem id, ultricies varius
+              dolor. Nam volutpat hendrerit massa. Crasposuere ornare elementum.
+            </p>
+
+            <a href="#" class="btn">
+              <span class="span">Read More</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+            <figure class="about-banner about-banner-3 img-holder" style="--width: 850; --height: 420;">
+              <img src="./assets/images/VA_waterfront_restaurant_with_table_mountain_and_cape_wheel.jpeg" width="850" height="420" loading="lazy"
+                alt="concentrated artisans in workshop" class="img-cover">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection text-center" aria-labelledby="collection-label">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="collection-label">
+            Unique Handicrafts Collection
+          </h2>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie ligula dignissim.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/USA,vermont,twin-farms.jpg" width="500" height="550" loading="lazy"
+                    alt="Pottery & Ceramics" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Pottery & Ceramics</h3>
+
+                  <p class="card-text">
+                    Cras fermentum augue ac purus pharetra man aliquam fringilla ornare quam.
+                  </p>
+
+                  <a href="#" class="btn">
+                    <span class="span">View Gallery</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/Italy.jpg" width="500" height="550" loading="lazy"
+                    alt="Leather Craft" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Leather Craft</h3>
+
+                  <p class="card-text">
+                    Cras fermentum augue ac purus pharetra man aliquam fringilla ornare quam.
+                  </p>
+
+                  <a href="#" class="btn">
+                    <span class="span">View Gallery</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/burj2.png" width="500" height="550" loading="lazy"
+                    alt="Home Decoration" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Home Decoration</h3>
+
+                  <p class="card-text">
+                    Cras fermentum augue ac purus pharetra man aliquam fringilla ornare quam.
+                  </p>
+
+                  <a href="#" class="btn">
+                    <span class="span">View Gallery</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="feature" aria-label="features">
+
+        <div class="feature-banner has-bg-image has-after"
+          style="background-image: url('./assets/images/JeffBezos.jpeg')">
+          <button class="play-btn" aria-label="play video: man making handmade belt">
+            <img src="./assets/images/play.svg" width="60" height="60" loading="lazy" alt="play icon">
+          </button>
+        </div>
+
+        <div class="section feature-content">
+          <div class="container">
+
+            <h2 class="h2 section-title">
+              Passionate About Elegance and Beauty Design
+            </h2>
+
+            <p class="section-text">
+              Curabitur porttitor nulla vitae purus eleifend feugiat. Quisque faucibus sapien, ut porttitor lorem.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-1.svg" width="45" height="45" loading="lazy"
+                      alt="review icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">100% Guarantee</h3>
+
+                    <p class="card-text">
+                      Vestibulum in eros at lectus commodo
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-2.svg" width="45" height="45" loading="lazy"
+                      alt="badge icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Professional Staffs</h3>
+
+                    <p class="card-text">
+                      Vestibulum in eros at lectus commodo
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-3.svg" width="45" height="45" loading="lazy"
+                      alt="money bag icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Affordable Price</h3>
+
+                    <p class="card-text">
+                      Vestibulum in eros at lectus commodo
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+			
+
+            <p>
+              Nunc cursus ante libero, et convallis eros tristique nec. Fusce consequat lectus dui, nec laoreet purus
+              venenatis id.
+            </p>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-label="testimonials">
+        <div class="container">
+
+          <div class="testi-card">
+          <img src="./assets/images/kimk.jpg" class=kimkk width="95" height="95" >
+            <p class="card-text">
+              Etiam ultricies eros ut malesuada condimentum. Cras in nisl sit amet dui molestie tristique ut vitae
+              libero nec laoreet purus.
+            </p>
+
+            <p class="client-name">Edward Fransisco</p>
+
+            <p class="client-title">Founder Crafti<img src="./assets/images/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_(cropped).jpg" width="50" height="50" loading="lazy" class="icon" alt="quote"></p>
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery">
+
+        <ul class="gallery-list">
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/jet-pack-1063x614.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Watersports</h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">View Gallery</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/pezula-hotel-activities-fishing.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Fishing</h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">View Gallery</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/kiev-ukraine-dec-giant-ferris-wheel-night-contract-square-169021012.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Carnivals</h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">View Gallery</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/59d8aa5393a109faba7cf2832099b3be--kuta-beach-bali-kuta.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Waterslides</h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">View Gallery</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center" id="blog-label">Blog & News</h2>
+
+          <p class="section-text text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie ligula dignissim.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/vi-pr-09.jpg" width="1024" height="683" loading="lazy"
+                    alt="The Detail Process Of Decorating The Clay Vase At Pottery Studio" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      The Detail Process Of Decorating The Clay Vase At Pottery Studio
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">admin</span>
+                    </a>
+
+                    <time class="card-meta-wrapper" datetime="2022-10-12">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">October 12, 2022</span>
+                    </time>
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="folder-open-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Tips & Trick</span>
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/THE-MURAKA_Architecture_Undersea-Bathroom_Hero-600x500.jpg" width="1024" height="683" loading="lazy"
+                    alt="Skills And Techniques To Make A Genuine Leather Wallet" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Skills And Techniques To Make A Genuine Leather Wallet
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">admin</span>
+                    </a>
+
+                    <time class="card-meta-wrapper" datetime="2022-10-12">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">October 12, 2022</span>
+                    </time>
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="folder-open-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Tips & Trick</span>
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/HOTEL1.jpg" width="1024" height="683" loading="lazy"
+                    alt="5 Latest And Trending Handmade Crafts For Adults And Kids" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      5 Latest And Trending Handmade Crafts For Adults And Kids
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">admin</span>
+                    </a>
+
+                    <time class="card-meta-wrapper" datetime="2022-10-12">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">October 12, 2022</span>
+                    </time>
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="folder-open-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Tips & Trick</span>
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/iguazu-falls-argentina-brazil.jpg" width="1024" height="683" loading="lazy"
+                    alt="Homemade Business That Now Makes Hundreds Of Millions" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Homemade Business That Now Makes Hundreds Of Millions
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">admin</span>
+                    </a>
+
+                    <time class="card-meta-wrapper" datetime="2022-10-12">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">October 12, 2022</span>
+                    </time>
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="folder-open-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Tips & Trick</span>
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn">
+            <span class="span">Read More</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+ 									 
+<section class="packages1">
+<h3 class="title1">Tour Packages</h3>		
+<p>We offer a variety of sightseeing and immersion packages. Whether you want to experience the rich culture, immerse yourself in it's natural beauty, or have a relaxing visit, we've got the perfect vacation for you</p>
+<hr>
+<ul class="grid1">
+	<li>
+		<i class="fa fa-compass fa-4x"></i>
+		<h4>Guided Tours</h4>
+		<p class="para">Looking for the complete experience? Take a tour with one of our experts. Visit the beautiful old temples and churches and the numerous beaches. Sample the local dishes and visit various health or spa retreats to pamper yourself on your vacation. </p>
+	</li>
+	<li>
+		<i class="fa fa-camera-retro fa-4x"></i>
+		<h4>Photo Tours</h4>
+		<p class="para" >Want to experience nature's beauty without all the trekking, walking and waiting? Take a photo tour on one of our luxury buses.</p>
+	</li>
+	<li>
+		<i class="fa fa-motorcycle fa-4x"></i>
+		<h4>Bike Tours</h4>
+		<p>A fun  way to experience the local atmosphere while seeing as much of Goa as you can. We'll provide the bikes and lunch too!</p>
+	</li>
+	<li>
+		<i class="fa fa-binoculars fa-4x"></i>
+		<h4>Safari Tours</h4>
+		<p class="para">Looking to see some wildlife? We offer fantastic safari trips! Spend a day out cruising along the back waters of the Zuari River in a giant canoe, returning to camp in the evening to retell your adventures next to the campfire!</p>
+	</li>
+</ul>
+</section>	
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad?</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> About Us </a>
+            <a href="#destination" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
+            <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> Pricing </a>
+            <a href="#gallery.html" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
+            <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> Order </a>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map"></i> Cape Town, South Africa </p>
+            <p> <i class="fas fa-phone"></i> +27-456-7890 </p>
+            <p> <i class="fas fa-envelope"></i> LiamWilliams@gmail.com </p>
+            <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" class="email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="credit">Powered by YOOX NET-A-PORTER GROUP <span>© 2016 - 2022 Sun Eco Travel</span> | all rights reserved!</div>
+
+<!-- footer section ends -->
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

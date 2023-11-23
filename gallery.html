@@ -1,0 +1,606 @@
+<!Doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Gallery.css">
+
+<style>
+ .9container { padding: 0 15px;
+ }
+}
+.container { padding: 0 15px; }
+}
+.8container {
+ padding: 0 15px;
+display: flex;
+flex-direction: row;
+}
+
+footer {
+  background: var(--eerie-black);
+  padding: 30px 0;
+}
+
+.footer-category {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--onyx);
+}
+
+.footer-category-title {
+  color: var(--salmon-pink);
+  font-size: var(--fs-6);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer-category-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 3px;
+  margin-bottom: 15px;
+}
+
+.category-box-title {
+  color: var(--spanish-gray);
+  font-size: var(--fs-8);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+}
+
+.footer-category-link {
+  position: relative;
+  color: var(--sonic-silver);
+  font-size: var(--fs-7);
+  text-transform: capitalize;
+  transition: var(--transition-timing);
+}
+
+.footer-category-link:hover { color: var(--spanish-gray); }
+
+.footer-category-link:not(:last-child)::after {
+  position: absolute;
+  content: '';
+  top: 3px;
+  right: -10px;
+  background: var(--sonic-silver);
+  width: 1px;
+  height: 15px;
+}
+
+
+/**
+ * footer nav 
+ */
+
+.footer-nav {
+  border-bottom: 1px solid var(--onyx);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+.footer-nav-list{
+display: flex;
+display: inline-block;
+margin-left: 200px;
+}
+.footer-nav-list:not(:last-child) { margin-bottom: 20px;
+ }
+
+.footer-nav .nav-title {
+  position: relative;
+  color: var(--white);
+  font-size: var(--fs-7);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.footer-nav .nav-title::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--salmon-pink);
+  width: 60px;
+  height: 1px;
+}
+
+.footer-nav-item { padding: 3px 0; }
+
+.footer-nav-link,
+.footer-nav-item .content {
+  width: max-content;
+  color: var(--sonic-silver);
+  font-size: var(--fs-7);
+  text-transform: capitalize;
+  transition: var(--transition-timing);
+}
+
+.footer-nav-link:hover { color: var(--salmon-pink); }
+
+.footer-nav-item.flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-nav-item .content {
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+.footer-nav-item .icon-box {
+  color: var(--sonic-silver);
+  font-size: 25px;
+}
+
+.footer-nav-item .icon-box ion-icon { --ionicon-stroke-width: 30px; }
+
+.footer-nav .social-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-link .footer-nav-link { font-size: 25px; }
+
+.footer-bottom {
+  margin-bottom: -60px;
+  text-align: center;
+}
+
+.payment-img {
+  max-width: 335px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.copyright {
+  color: var(--sonic-silver);
+  font-size: var(--fs-8);
+  font-weight: var(--weight-500);
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.copyright a {
+  display: inline;
+  color: inherit;
+}
+
+</style>
+ <header> <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="./assets/images/logo.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#Order">Order</a></li>
+            </ul>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+				<input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </nav>
+		</header>
+		</section>
+		
+</head>
+<body>
+<section>
+<div class="container">
+      <div class="heading">
+        <h3>Photo <span>Gallery</span></h3>
+	  </div>
+	  
+		
+<div class="container1">
+
+  <div class="gallery-container w-3 h-2">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="./assets/images/boatbluewater.jpg" alt="nature">
+      </div>
+      <div class="text">nature 1</div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-3 h-3">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="./assets/images/boatbluewater.jpg" alt="people">
+      </div>
+      <div class="text">people 2</div>
+    </div>
+  </div>
+
+  <div class="gallery-container h-2">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="./assets/images/boatbluewater.jpg" alt="sport">
+      </div>
+      <div class="text">sport 3</div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-2">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="./assets/images/boatbluewater.jpg" alt="fitness">
+      </div>
+      <div class="text">fitness 4</div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-4 h-1">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="./assets/images/boatbluewater.jpg" alt="food">
+      </div>
+      <div class="text">food 5</div>
+    </div>
+  </div>
+
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="./assets/images/boatbluewater.jpg" alt="travel">
+      </div>
+      <div class="text">travel 6</div>
+    </div>
+  </div>
+
+  
+
+</div>
+
+
+   
+		<div class="box">
+	    <div class="dream">
+	    <img src="assets/images/Dubai.jpg">
+	     <img src="assets/images/Dubai.jpg">
+	      <img src="assets/images/Dubai.jpg">
+		   <img src="assets/images/Dubai.jpg">
+		    <img src="assets/images/Dubai.jpg">
+	  </div>
+	   <div class="dream">
+	    <img src="assets/images/Dubai.jpg">
+	     <img src="assets/images/Dubai.jpg">
+	      <img src="assets/images/Dubai.jpg">
+		   <img src="assets/images/Dubai.jpg">
+		    <img src="assets/images/Dubai.jpg">
+	  </div>
+	   <div class="dream">
+	    <img src="assets/images/Dubai.jpg">
+	     <img src="assets/images/Dubai.jpg">
+	      <img src="assets/images/Dubai.jpg">
+		   <img src="assets/images/Dubai.jpg">
+		    <img src="assets/images/Dubai.jpg">
+   </div>
+  </div>
+  </section>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="asset/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Brand directory</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">Fashion :</h3>
+
+          <a href="#Home" class="footer-category-link">Private Islands</a>
+          <a href="#" class="footer-category-link">Fiji</a>
+          <a href="#" class="footer-category-link">Madagascar</a>
+          <a href="#" class="footer-category-link">Artifcial Island</a>
+          <a href="#" class="footer-category-link">Weddel Island</a>
+          <a href="#" class="footer-category-link">Liberland</a>
+          <a href="#" class="footer-category-link">Vladi Island</a>
+
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Top Hotels:</h3>
+        
+          <a href="#" class="footer-category-link">The Plaza, New York</a>
+          <a href="#" class="footer-category-link">Burj Al Arab Hotel, Dubai</a>
+          <a href="#" class="footer-category-link">The Westin Excelisior, Rome</a>
+          <a href="#" class="footer-category-link">Alantis Paradise Island, Bahamas</a>
+          <a href="#" class="footer-category-link">Conrad Maldives Rangli Island</a>
+          <a href="#" class="footer-category-link">Taj Lake Palace, India</a>
+          <a href="#" class="footer-category-link">The Boulders, Arizona</a>
+          <a href="#" class="footer-category-link">Amilla Glamping, Maldives</a>
+          <a href="#" class="footer-category-link">Raffles Singapore</a>
+          <a href="#" class="footer-category-link">Giraffe Manor, Kenya</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Country :</h3>
+        
+		  <a href="#" class="footer-category-link">Australia</a>
+		  <a href="#" class="footer-category-link">Botswana</a>
+          <a href="#" class="footer-category-link">Congo</a>
+          <a href="#" class="footer-category-link">California</a>
+		  <a href="#" class="footer-category-link">Japan</a>
+		  <a href="#" class="footer-category-link">France</a>
+          <a href="#" class="footer-category-link">Namibia</a>
+          <a href="#" class="footer-category-link">Moscow</a>
+          <a href="#" class="footer-category-link">Singapore</a>
+          <a href="#" class="footer-category-link">South Africa</a>
+		  <a href="#" class="footer-category-link">United Arab Emirates</a>
+          
+          
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Attractions :</h3>
+        
+          <a href="#" class="footer-category-link">Dubai</a>
+          <a href="#" class="footer-category-link">Cape Town</a>
+          <a href="#" class="footer-category-link">New York</a>
+          <a href="#" class="footer-category-link">Sydney</a>
+          <a href="#" class="footer-category-link">London</a>
+          <a href="#" class="footer-category-link">Sydney</a>
+          <a href="#" class="footer-category-link">Egypt</a>
+          <a href="#" class="footer-category-link">Rome</a>
+          <a href="#" class="footer-category-link">Indonesia</a>
+          <a href="#" class="footer-category-link">China</a>
+          <a href="#" class="footer-category-link">Japan</a>
+          <a href="#" class="footer-category-link">Italy</a>
+          <a href="#" class="footer-category-link">France</a>
+          <a href="#" class="footer-category-link">Korea</a>
+          <a href="#" class="footer-category-link">Bali</a>
+          <a href="#" class="footer-category-link">United Arab Emirates</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+       <div class="8container">
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Tour Guides</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Scuba Diving</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Fun Tours</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">5-Hotels</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Spa Resorts</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Family Vacations</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Deals & Discounts</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Competition Giveaways</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Dubai Spring sale!</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Winter Giveaways!</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Paris Romantic Getaway!</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Home</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Pricing</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Gallery</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact Us</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Tour Iternary's</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Accomodation</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Tourist Attractions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              419 Epping ,Athlone Industry
+              Cape Town, Republic Of South Africa(RSA), 7764, RSA
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+27-61-675-8058" class="footer-nav-link">(27)61-675-8058</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="Mail to:SunEco@gmail.com" class="footer-nav-link">SunEco@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+ 
+
+    <div class="footer-bottom">
+</div>
+      <div class="9container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">Sun Eco</a> all rights reserved.
+        </p>
+
+      </div>
+
+    
+
+  </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+	<link rel="stylesheet" href="./asset/css/style.css">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+ <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="AboutUs.css" />
+    <title>Liam Williams - Sun Eco Travel</title>
+	  <!-- custom js file link  -->
+    <script src="./asset/js/script.js" defer></script>
+	
+<body id="top" class="dark_theme">
+
+  
+	<style>
+	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+	
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #111;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #29d9d5;
+  border-radius: 5rem;
+}
+
+body {
+  background: #111;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+	/*-----------------------------------*\
+ * #THEME COLORS
+\*-----------------------------------*/
+
+body.dark_theme {
+
+  --bg-primary: hsl(0, 0%, 12%);
+  --bg-secondary: hsl(0, 0%, 19%);
+  --color-primary: hsl(0, 0%, 100%);
+  --color-secondary: hsl(0, 0%, 62%);
+  --card-shadow: hsla(0, 0%, 0%, 0.4);
+  --input-bg: hsl(0, 0%, 16%);
+
+  --shadow-1: 10px 10px 40px var(--card-shadow);
+
+}
+
+body.light_theme {
+
+  --bg-primary: hsl(0, 0%, 90%);
+  --bg-secondary: hsl(0, 0%, 100%);
+  --color-primary: hsl(0, 0%, 12%);
+  --color-secondary: hsl(0, 0%, 37%);
+  --card-shadow: hsla(0, 0%, 0%, 0.1);
+  --input-bg: hsl(0, 0%, 93%);
+
+  --shadow-1: 10px 10px 40px var(--card-shadow);
+
+}
+
+	:root {
+
+  /**
+   * colors
+   */
+
+  --spanish-gray: hsl(0, 0%, 60%);
+  --sonic-silver: hsl(0, 0%, 47%);
+  --eerie-black: hsl(0, 0%, 13%);
+  --salmon-pink: hsl(353, 100%, 78%);
+  --sandy-brown: hsl(29, 90%, 65%);
+  --bittersweet: hsl(0, 100%, 70%);
+  --ocean-green: hsl(152, 51%, 52%);
+  --davys-gray: hsl(0, 0%, 33%);
+  --cultured: hsl(0, 0%, 93%);
+  --white: hsl(0, 100%, 100%);
+  --onyx: hsl(0, 0%, 27%);
+
+  /**
+   * typography
+   */
+
+  --fs-1: 1.563rem;
+  --fs-2: 1.375rem;
+  --fs-3: 1.25rem;
+  --fs-4: 1.125rem;
+  --fs-5: 1rem;
+  --fs-6: 0.938rem;
+  --fs-7: 0.875rem;
+  --fs-8: 0.813rem;
+  --fs-9: 0.75rem;
+  --fs-10: 0.688rem;
+  --fs-11: 0.625rem;
+
+  --weight-300: 300;
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+
+  /**
+   * border-radius
+   */
+
+  --border-radius-md: 10px;
+  --border-radius-sm: 5px;
+ /**
+   * transition 
+   */
+
+  --transition-timing: 0.2s ease;
+
+.ABOUTUS {
+font-size:50px;
+text-align: center;
+border-bottom: 3px solid var(--color-primary);
+margin-bottom: 50px;
+}
+.555 {
+margin-left: 10px;
+
+}
+</style>
+  </head>
+<!-- 
+    - #HEADER
+  -->
+<body id="top" class="dark_theme">
+  <header> <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="./assets/images/logo.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="Gallerynew.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#Order.html">Order</a></li>
+            </ul>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+				<input type="text" placeholder="Search.." name="search">
+				
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="ar">Ar</option>
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+                
+            </div>
+        </nav>
+		</header>
+		</section>
+    <header>
+      <p class="ABOUTUS">About Us</p>
+    <section class="Liam__Williams">
+      <div class="Joshua__Robert">
+	  
+        <div class="banner__content">
+          <h1>Discount 15-35% Off</h1>
+          <p>
+            Travel the world on a budget with our unbeatable discounted travel
+            deals. Whether you're looking for a last-minute escape or planning
+            ahead, we've got you covered with incredible discounts on flights,
+            hotels, and packages. Don't wait, book now and experience the
+            adventure of a lifetime without breaking the bank.
+          </p>
+          <button>Explore</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="display__container">
+      <div class="section__container">
+        <h2 class="section__title">Why Choose Us</h2>
+        <p class="section__subtitle">
+          "The gladdest moment in human life, is a departure into unknown lands."
+        </p>
+        <div class="display__grid">
+          <div class="display__card grid-1">
+            <img src="assets/images/OIPS4JRMLZC.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-earth-line"></i>
+            <h4>Jeff Bezos</h4>
+			<p class="CEO">CEO</p>
+            <p>"Fuel your passion for adventure and discover new horizons"</p>
+          </div>
+          <div class="display__card">
+            <img src="assets/images/JeffBezos.jpeg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <img src="assets/images/kimk.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-road-map-line"></i>
+            <h4>Kim Kardashian</h4>
+			<p class="CEO">Marketing Director</p>
+            <p>The worst form of suffering is isolation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Brand directory</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">Fashion :</h3>
+
+          <a href="#Home" class="footer-category-link">Private Islands</a>
+          <a href="#" class="footer-category-link">Fiji</a>
+          <a href="#" class="footer-category-link">Madagascar</a>
+          <a href="#" class="footer-category-link">Artifcial Island</a>
+          <a href="#" class="footer-category-link">Weddel Island</a>
+          <a href="#" class="footer-category-link">Liberland</a>
+          <a href="#" class="footer-category-link">Vladi Island</a>
+
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Top Hotels:</h3>
+        
+          <a href="#" class="footer-category-link">The Plaza, New York</a>
+          <a href="#" class="footer-category-link">Burj Al Arab Hotel, Dubai</a>
+          <a href="#" class="footer-category-link">The Westin Excelisior, Rome</a>
+          <a href="#" class="footer-category-link">Alantis Paradise Island, Bahamas</a>
+          <a href="#" class="footer-category-link">Conrad Maldives Rangli Island</a>
+          <a href="#" class="footer-category-link">Taj Lake Palace, India</a>
+          <a href="#" class="footer-category-link">The Boulders, Arizona</a>
+          <a href="#" class="footer-category-link">Amilla Glamping, Maldives</a>
+          <a href="#" class="footer-category-link">Raffles Singapore</a>
+          <a href="#" class="footer-category-link">Giraffe Manor, Kenya</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Country :</h3>
+        
+		  <a href="#" class="footer-category-link">Australia</a>
+		  <a href="#" class="footer-category-link">Botswana</a>
+          <a href="#" class="footer-category-link">Congo</a>
+          <a href="#" class="footer-category-link">California</a>
+		  <a href="#" class="footer-category-link">Japan</a>
+		  <a href="#" class="footer-category-link">France</a>
+          <a href="#" class="footer-category-link">Namibia</a>
+          <a href="#" class="footer-category-link">Moscow</a>
+          <a href="#" class="footer-category-link">Singapore</a>
+          <a href="#" class="footer-category-link">South Africa</a>
+		  <a href="#" class="footer-category-link">United Arab Emirates</a>
+          
+          
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Attractions :</h3>
+        
+          <a href="#" class="footer-category-link">Dubai</a>
+          <a href="#" class="footer-category-link">Cape Town</a>
+          <a href="#" class="footer-category-link">New York</a>
+          <a href="#" class="footer-category-link">Sydney</a>
+          <a href="#" class="footer-category-link">London</a>
+          <a href="#" class="footer-category-link">Sydney</a>
+          <a href="#" class="footer-category-link">Egypt</a>
+          <a href="#" class="footer-category-link">Rome</a>
+          <a href="#" class="footer-category-link">Indonesia</a>
+          <a href="#" class="footer-category-link">China</a>
+          <a href="#" class="footer-category-link">Japan</a>
+          <a href="#" class="footer-category-link">Italy</a>
+          <a href="#" class="footer-category-link">France</a>
+          <a href="#" class="footer-category-link">Korea</a>
+          <a href="#" class="footer-category-link">Bali</a>
+          <a href="#" class="footer-category-link">United Arab Emirates</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+       <div class="8container">
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Tour Guides</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Scuba Diving</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Fun Tours</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">5-Hotels</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Spa Resorts</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Family Vacations</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Deals & Discounts</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Competition Giveaways</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Dubai Spring sale!</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Winter Giveaways!</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Paris Romantic Getaway!</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Home</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Pricing</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Gallery</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact Us</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Tour Iternary's</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Accomodation</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Tourist Attractions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              419 Epping ,Athlone Industry
+              Cape Town, Republic Of South Africa(RSA), 7764, RSA
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+27-61-675-8058" class="footer-nav-link">(27)61-675-8058</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="Mail to:SunEco@gmail.com" class="footer-nav-link">SunEco@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+ 
+
+    <div class="footer-bottom">
+</div>
+      <div class="9container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">Sun Eco</a> all rights reserved.
+        </p>
+
+      </div>
+
+    
+
+  </footer>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="asset/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
